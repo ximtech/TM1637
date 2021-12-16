@@ -24,10 +24,10 @@ CPMAddPackage(
 
 ```cmake
 include_directories(${includes}
-        ${HD44780_LCD_I2C_DIRECTORY})   # source directories
+        ${TM1637_DIRECTORY})   # source directories
 
 file(GLOB_RECURSE SOURCES ${sources}
-        ${HD44780_LCD_I2C_SOURCES})    # source files
+        ${TM1637_SOURCES})    # source files
 ```
 
 3. Then Build -> Clean -> Rebuild Project
